@@ -1,0 +1,50 @@
+.menu a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25.5px 75px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 22px 0px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.4 px;
+    margin: 28px 67.5px;
+}
+
+.button_get_started {
+    background-color: red;
+    max-width: 191px;
+    height: 51px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding: 18px 43.5px;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+    border: red;
+}
+
+.button_get_started p {
+    color: white;
+}
