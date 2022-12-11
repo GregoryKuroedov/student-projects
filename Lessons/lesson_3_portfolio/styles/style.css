@@ -26,3 +26,18 @@
             /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
         rgba(196, 196, 196, 0.1);
 }
+
+.project_list {
+    list-style-type: none;
+}
+
+.project_1 {
+    font-size: 24px;
+}
+.project_1 h6 {
+    font-size: 20px;
+}
+
+.project_1 p {
+    font-size: 24px;
+}
