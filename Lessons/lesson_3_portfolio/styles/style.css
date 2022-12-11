@@ -45,3 +45,7 @@
 .project_1_text {
     display: inline-block;
 }
+
+.project_1 image {
+    opacity: 0.4;
+}
