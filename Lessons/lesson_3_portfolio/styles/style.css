@@ -31,21 +31,34 @@
     list-style-type: none;
 }
 
-.project_1 {
-    font-size: 24px;
+.project {
+    border-bottom: 3px solid black;
+    padding: 40px 0px;
+    max-width: 1210px;
 }
-.project_1 h6 {
+.project h6 {
     font-size: 20px;
 }
 
-.project_1 p {
+.project p {
     font-size: 24px;
+    margin-bottom: 290px;
+    max-width: 520px;
 }
 
-.project_1_text {
+.project_text {
     display: inline-block;
+    width: 600px;
 }
 
-.project_1 image {
+.project image {
     opacity: 0.4;
+}
+
+.project a {
+    color: black;
+}
+
+.project:hover image {
+    opacity: 1;
 }
