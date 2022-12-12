@@ -29,29 +29,29 @@
     align-items: flex-end;
 }
 
-
-
 .project_list {
     list-style-type: none;
 }
 
 .project {
     border-bottom: 3px solid black;
-    padding: 40px 0px;
+    padding: 40px 0;
     max-width: 1210px;
 }
 .project h6 {
+    max-width: 520px;
     font-size: 20px;
 }
 
 .project p {
+    margin-top: auto;
     font-size: 24px;
-    margin-bottom: 290px;
     max-width: 520px;
 }
 
 .project_text {
-    display: inline-block;
+    display: flex;
+    flex-direction:column ;
     width: 600px;
 }
 
@@ -69,4 +69,26 @@
 
 .project img:hover {
     box-shadow: 0 0 60px 15px rgb(0, 0, 0, 0, 5);
+}
+
+.about {
+    display: flex;
+    gap: 60px;
+}
+.about-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.about-photo {
+    align-self: center;
+}
+
+.about-text p {
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
