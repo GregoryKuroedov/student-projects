@@ -1,4 +1,5 @@
 .load {
+    position: relative;
     margin: auto;
     border: 2px solid black;
     width: 300px;
@@ -6,7 +7,39 @@
 }
 
 .cube {
+    position: absolute;
     width: 150px;
     height: 150px;
-    background-color: blueviolet;
+    background-color: black;
+    animation-name: load;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load {
+    0% {
+        background-color: blueviolet;
+        left: 0;
+        op: 0;
+    }
+    25% {
+        background-color: blue;
+        left: 150px;
+        top: 0;
+    }
+    50% {
+        background-color: aqua;
+        left: 150px;
+        top: 150px;
+    }
+    75%{
+        background-color: blue;
+        left: 0px;
+        top: 150px;
+    }
+    100% {
+        background-color: blueviolet;
+        left: 0;
+        top: 0;
+    }
 }
