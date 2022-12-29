@@ -1,0 +1,48 @@
+body {
+    font-family: 'Chivo Mono', monospace;
+}
+
+.container {
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        radial-gradient(
+                86.34% 86.34% at 69.24% 0%,
+                #f3a8ff 0%,
+                #ffb3ca 0.01%,
+                rgba(185, 255, 200, 0) 100%
+            )
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+        radial-gradient(
+                110.5% 110.5% at 21.63% 0%,
+                #9ab8ff 0%,
+                rgba(169, 255, 240, 0) 100%
+            )
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+        radial-gradient(
+                86.46% 96.77% at 56.53% 107.7%,
+                #a8ffe0 0%,
+                rgba(255, 255, 255, 0) 100%
+            )
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+        rgba(196, 196, 196, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width : 300px;
+}
+
+.form label {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
